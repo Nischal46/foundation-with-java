@@ -1,0 +1,23 @@
+# Gradle build output directories
+.gradle/
+build/
+bin/
+out/
+
+# IDE & Editor specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.vscode/
+
+# OS / System temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
