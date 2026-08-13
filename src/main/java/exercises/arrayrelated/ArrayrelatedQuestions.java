@@ -38,7 +38,6 @@ public class ArrayrelatedQuestions {
     System.out.println("[After] array modification");
     arr[4] = new ProgrammingLanguage("js", "angularjs");
     System.out.println(Arrays.toString(arr));
-
   }
 }
 
