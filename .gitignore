@@ -1,8 +1,15 @@
-# Gradle build output directories
-.gradle/*
+# Gradle build output & caches
+.gradle/
 build/
 bin/
 out/
+
+# Gradle wrapper & build scripts (if you only want source logic in remote)
+gradle/
+gradlew
+gradlew.bat
+build.gradle
+settings.gradle
 
 # IDE & Editor specific files
 .idea/
