@@ -1,19 +1,9 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import datastructure.ArrayConcept;
-import datastructure.ArrayListConcept;
-import exercises.arrayrelated.ArrayrelatedQuestions;
-import exercises.objectrelated.ObjectRelatedExercise;
-import exercises.arrayrelated.ArrayBuiltinMethod;
+import exercises.ExercisesManager;
 
 public class Main {
   public static void main(String[] args) {
-    ArrayBuiltinMethod.sortArrayInteger();
-    ArrayBuiltinMethod.findIndexByBinarySearch();
-    // ArrayBuiltinMethod.sortingThroughComparator();
-    ArrayBuiltinMethod.removingItemFromList();
-    ArrayBuiltinMethod.itemsContainsInList();
-    ObjectRelatedExercise.checkLetterRepition();
+    System.out.println("This is main method in java. entry point");
+
+    ExercisesManager.init();
   }
 }
