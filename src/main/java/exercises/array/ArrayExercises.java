@@ -87,11 +87,11 @@ public class ArrayExercises {
 
     // through normal method
     for (int i = 0; i < arr.length; i++) {
-      // if (obj.get(arr[i]) == true) {
-      // System.out.println("duplicate");
-      // }else{
-      // obj.put(arr[i], arr[i]);
-      // }
+      if (obj.get(arr[i]) == true) {
+        System.out.println("duplicate");
+      } else {
+        obj.put(arr[i], arr[i]);
+      }
     }
 
     System.out.println("hashmap: " + obj);
