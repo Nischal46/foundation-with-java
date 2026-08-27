@@ -8,5 +8,6 @@ public class ArraySolver {
     EasyModuleArrayQuestion.arrayLeader(new int[] { 16, 17, 4, 3, 5, 2 });
     EasyModuleArrayQuestion.arrayLeader(new int[] { 5, 10, 20, 40 });
     EasyModuleArrayQuestion.arrayLeader(new int[] { 10, 4, 2, 4, 1 });
+    EasyModuleArrayQuestion.arrayLeader(new int[] { 30, 10, 10, 5 });
   }
 }

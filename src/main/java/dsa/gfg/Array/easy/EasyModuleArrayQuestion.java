@@ -2,6 +2,7 @@ package dsa.gfg.Array.easy;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class EasyModuleArrayQuestion {
   public static void arrayLeader(int[] arr) {
@@ -24,6 +25,7 @@ public class EasyModuleArrayQuestion {
           } else if (arr[i] == arr[j]) {
           } else {
             isGreaterExist = true;
+            break;
           }
         }
 
@@ -43,6 +45,22 @@ public class EasyModuleArrayQuestion {
     System.out.println("At last: ");
     System.out.println(finalResponse);
     System.out.println("");
+  }
+
+  public static void arrayLeaderImprovised(int[] arr) {
+    ArrayList<Integer> result = new ArrayList<>();
+    int maxRight = Integer.MIN_VALUE;
+    System.out.println("maxRight: " + maxRight);
+
+    for (int i = arr.length - 1; i >= 0; i--) {
+      if (arr[i] >= maxRight) {
+        maxRight = arr[i];
+        result.add(maxRight);
+      }
+    }
+
+    Collections.reverse(result);
+    System.out.println("result: " + result);
   }
 
   public static void moveAllNegativeNumberRight() {
