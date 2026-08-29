@@ -3,6 +3,8 @@ package dsa.gfg.Array.easy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class EasyModuleArrayQuestion {
   public static void arrayLeader(int[] arr) {
@@ -61,6 +63,17 @@ public class EasyModuleArrayQuestion {
 
     Collections.reverse(result);
     System.out.println("result: " + result);
+  }
+
+  public static void encounterDuplicacyOfElement(int[] arr) {
+    // logic to extract the duplicate of element in the array
+
+    HashMap<Integer, Integer> duplicacyTrack = new HashMap<>();
+
+    for (int i = 0; i < arr.length; i++) {
+
+    }
+
   }
 
   public static void moveAllNegativeNumberRight() {
