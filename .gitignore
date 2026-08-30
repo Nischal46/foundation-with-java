@@ -1,30 +1,14 @@
 # Gradle build output & caches
-.gradle/
-build/
+# Ignore compiled Java bytecode
+*.class
+
+# Ignore packaged Java archives
+*.jar
+*.war
+*.ear
+
+# Ignore build and bin directories
 bin/
+build/
 out/
-
-# Gradle wrapper & build scripts (if you only want source logic in remote)
-gradle/
-gradlew
-gradlew.bat
-build.gradle
-settings.gradle
-
-# IDE & Editor specific files
-.idea/
-*.iml
-*.ipr
-*.iws
-.settings/
-.classpath
-.project
-.vscode/
-
-# OS / System temporary files
-.DS_Store
-Thumbs.db
-*.tmp
-*.bak
-*.swp
-*~
+target/
