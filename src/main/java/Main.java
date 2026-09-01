@@ -6,6 +6,8 @@ public class Main {
     System.out.println("logging args ---" + args[0]);
     System.out.println("== ==== DSA solving ==== ==");
 
+    System.out.println("This makes args passing of the parameter and args[] is neceddary for jvm to verify signature");
+
     if (args[0].equals("dsa")) {
       Geeksforgeeks.init();
     } else {
