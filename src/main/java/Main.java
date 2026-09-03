@@ -11,7 +11,7 @@ public class Main {
     if (args[0].equals("dsa")) {
       Geeksforgeeks.init();
     } else {
-      Core.initDataStructures();
+      Core.initCore();
     }
   }
 }
