@@ -1,6 +1,7 @@
 package core;
 
 import core.classandobjects.InheritanceConcept;
+import core.classandobjects.PolymorphismConcept;
 import core.datastructure.Datastructures;
 
 public class Core {
@@ -14,10 +15,13 @@ public class Core {
     // System.out.println("Inherit loop of half pyramid");
     // obj.printHalfPyramid();
 
-    System.out.println("Experimenting with protected method");
-    obj.accessingProtectedFromParentclass();
+    // System.out.println("Experimenting with protected method");
+    // obj.accessingProtectedFromParentclass();
+    //
+    // obj.callingOtherClass();
 
-    obj.callingOtherClass();
+    PolymorphismConcept pobj = new PolymorphismConcept();
+    pobj.init();
   }
 
 }
