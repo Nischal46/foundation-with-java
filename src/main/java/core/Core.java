@@ -3,6 +3,7 @@ package core;
 import core.classandobjects.InheritanceConcept;
 import core.classandobjects.PolymorphismConcept;
 import core.datastructure.Datastructures;
+import core.stackConcept.StackConcept;
 
 public class Core {
   public static void initCore() {
@@ -20,8 +21,11 @@ public class Core {
     //
     // obj.callingOtherClass();
 
-    PolymorphismConcept pobj = new PolymorphismConcept();
-    pobj.init();
+    // PolymorphismConcept pobj = new PolymorphismConcept();
+    // pobj.init();
+
+    StackConcept sobj = new StackConcept();
+    sobj.init();
   }
 
 }
